@@ -15,7 +15,7 @@ class TodolistTestCase(unittest.TestCase):
 
         self.username_adam = "adam"
         self.shopping_list_title = "shopping list"
-        self.read_todo_description = "Read a book about TDDhello"
+        self.read_todo_description = "Read a book about TDD"
 
     def tearDown(self):
         db.session.remove()
