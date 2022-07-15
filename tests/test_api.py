@@ -11,7 +11,7 @@ from app.models import Todo, TodoList, User
 
 class TodolistAPITestCase(TestCase):
     def create_app(self):
-        return create_app("testing webhook")
+        return create_app("testing")
 
     def setUp(self):
         db.create_all()
